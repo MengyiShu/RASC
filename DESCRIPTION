@@ -1,0 +1,14 @@
+Package: RASC
+Type: Package
+Title: An implementation of RNA Analysis of Single Cell
+Version: 0.1.0
+Author: Mengyi Shu
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: A single cell analysis tool that used to filter and processe cell
+  such filter out low quality cells; dimension reduction using linear regression
+  such as PCA; unsupervised clustering; annote the cell types.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
