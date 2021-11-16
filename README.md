@@ -53,7 +53,7 @@ data(package = "RASC")
 ```
 
 An overview of the package is illustrated below:
-<!-- ![](./inst/extdata/OVERVIEW.png) -->
+![](./inst/extdata/OVERVIEW.png)
 
 ``` r
 browseVignettes("<PackageName>")
