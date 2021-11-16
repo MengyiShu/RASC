@@ -6,10 +6,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The objective of the tool is to reproduce and improve the workflow of
-the single cell RNA analysis which includes processing and filtering the
-data, calculating dimension reduction, unsupervised clustering,and cell
-type annotation. The goal of scRNA analysis is to do clustering and
+`RASC` is a tool that reproduce and improve the workflow of the single
+cell RNA analysis which includes processing and filtering the data,
+calculating dimension reduction, unsupervised clustering,and cell type
+annotation. The goal of scRNA analysis is to do clustering and
 classifying cells at single cell level. It will perform analysis on the
 gene expression in every cell with a reference, then annotating the
 corresponding cell types.The reference should includes the unique gene
@@ -39,7 +39,11 @@ devtools::install_github("MengyiShu/RASC", build_vignettes = TRUE)
 library("RASC")
 ```
 
-To run the shinyApp: Under construction
+To run the shinyApp:
+
+``` r
+runTestingPackage()
+```
 
 ## Overview
 
