@@ -1,16 +1,34 @@
+#' Scores the SCE with AUCell
+#'
+#' A function Scores a data matrix with AUCell in batches. Idea is to limit memory consumption when
+#' scoring with AUCell
+#'
+#' @param inp_data SCE object
+#' @param genesets geneset that you want test with the SCE object,amed list of character vectors, each consisting of a set of gene symbols
+#' @param num_batches umber of batches to run AUCell for. More batches = fewer cells (observations)
+##                  for each batch used for scoring
+#'
+#' @return Returns an either an nxp matrix (samples x scores)
+#'
+#' @examples
+#' expr=load_expression("mf_patient02.csv")
+#' pathway_scores = AUCell_batch(counts(expr), genesets = c(hallmarks), num_batches=20)
+#' # Access pathway_scores
+#' pathway_scores
+#'
+#'
+#' @export
+#' @import scater
+#' @import dplyr
+#' @import tidyverse
+#' @import SingleR
+#' @import data.table
+#' @import scran
+
+
+
 AUCell_batch <- function(inp_data, genesets, num_batches = 100) {
-  ## Scores a data matrix with AUCell in batches. Idea is to limit memory consumption when
-  ## scoring with AUCell
-  ## INPUTS:
-  ##    inp_data = input data, either a dxn matrix of d features, n samples or a Seurat object
-  ##                containing such a matrix
-  ##    genesets = named list of character vectors, each consisting of a set of gene symbols
-  ##    num_batches = number of batches to run AUCell for. More batches = fewer cells (observations)
-  ##                  for each batch used for scoring
-  ##    slot = slot to use if using a Seurat object
-  ##    assay = assay to use if using a Seurat object
-  ## RETURNS:
-  ##  either an nxp matrix (samples x scores)
+
   num_cells <- ncol(inp_data)
   batch_size <- ceiling(num_cells/num_batches)
   score_mat <- c()
