@@ -2,7 +2,7 @@ Package: RASC
 Type: Package
 Title: An implementation of RNA Analysis of Single Cell
 Version: 0.1.0
-Author@R: person("Mengyi","Shu",email="mengyi.shu@mail.utoronto.ca",role=c("aut","cre"))
+Author: person("Mengyi","Shu",email="mengyi.shu@mail.utoronto.ca",role=c("aut","cre"))
 Maintainer: Mengyi Shu <Mengyi.shu@mail.utoronto.ca>
 Description: A single cell analysis tool that used to filter and processe cell
   such filter out low quality cells; dimension reduction using linear regression
