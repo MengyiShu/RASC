@@ -50,6 +50,10 @@ data(package = "RASC")
 
 An overview of the package is illustrated below
 
+``` r
+browseVignettes("<PackageName>")
+```
+
 ## Reference
 
 ## Acknowledgements
