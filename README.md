@@ -34,8 +34,12 @@ the platform used for this package is windows
 You can install the development version of RASC like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+require("devtools")
+devtools::install_github("MengyiShu/RASC", build_vignettes = TRUE)
+library("RASC")
 ```
+
+To run the shinyApp: Under construction
 
 ## Example
 

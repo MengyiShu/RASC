@@ -27,9 +27,13 @@ The version of R is 4.1.0 and the platform used for this package is windows
 
 You can install the development version of RASC like so:
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```R
+require("devtools")
+devtools::install_github("MengyiShu/RASC", build_vignettes = TRUE)
+library("RASC")
 ```
+To run the shinyApp:
+Under construction
 
 ## Example
 
