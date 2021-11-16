@@ -26,7 +26,8 @@ labeled with highest score of reference cells they resemble. Thus, some
 weird cells might be filtered or marked as normal cells. My package will
 fix this problem by calculating the average of the similarity score and
 finds cell that has low scores and relabeling them with AUcell to make
-the cell annotation part more accurate.
+the cell annotation part more accurate. The version of R is4.1.0 and the
+platform used for this package is windows
 
 ## Installation
 
