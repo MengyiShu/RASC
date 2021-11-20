@@ -7,7 +7,11 @@
 #'
 #' @return Returns single cell experiment object
 #'@export
-
+#'@import dplyr
+#'@import tidyverse
+#'@import SingleR
+#'@import data.table
+#'
 #' @examples
 #' expr=load_expression("mf_patient21.csv")
 #'
