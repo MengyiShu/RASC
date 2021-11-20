@@ -1,6 +1,6 @@
-#' Function that load CSV Files
+#' Function that load dataframe Files
 #'
-#' A function that read CSV files that contain information about the cells
+#' A function that read dataframe that contain information about the cells
 #' then convert it to a single cell experiment function
 #'
 #' @param expr_file A file that contains the cell information
@@ -13,7 +13,7 @@
 #'@import data.table
 #'
 #' @examples
-#' expr=load_expression("mf_patient21.csv")
+#' expr=load_expression(Patient_data)
 #'
 #' # Access sce value
 #' expr
@@ -22,7 +22,7 @@
 # function to load SCE
 load_expression <- function(exprs_file){
   # load count matrix with cells and genes
-  exprs <- fread(exprs_file)
+  exprs <- setDT(exprs_file)
 
   # remove header row, get counts and genes
   counts <- exprs[which((exprs[,1]!="Gene") | (exprs[,1]!="gene")),-1]
