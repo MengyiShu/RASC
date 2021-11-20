@@ -1,0 +1,19 @@
+---
+title: "IntroductionToRASC"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{IntroductionToRASC}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+This package allow us to 
+```{r setup}
+library(RASC)
+```
