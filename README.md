@@ -24,8 +24,12 @@ so they will have a very low score for every reference cell types.
 However, due to the property of the algorithm, they will still be
 labeled with highest score of reference cells they resemble. Thus, some
 weird cells might be filtered or marked as normal cells. My package will
-fix this problem by provide alternative way to label the cell type. The
-version of R is 4.1.0 and the platform used for this package is windows
+fix this problem by provide alternative way to label the cell type.My
+package will rank the cell based on their enrichment in different
+pathways,so users might then use this information to label the cell
+other than compare with the reference cell signature to make the
+labeling part more accurate. The version of R is 4.1.0 and the platform
+used for this package is windows
 
 ## Installation
 
@@ -40,7 +44,7 @@ library("RASC")
 To run the shinyApp:
 
 ``` r
-runTestingPackage()
+runRASC()
 ```
 
 ## Overview
@@ -57,10 +61,18 @@ An overview of the package is illustrated below:
 browseVignettes("IntroductionToRASC")
 ```
 
-## Reference
+## Contributions
 
-Lawrence, M., & Turaga, N. (2021, March 27). Orchestrating Single Cell
-Analysis. GitHub. Retrieved October 26, 2021, from
+Provide a note clearly indicating contributions from you and
+contributions from other packages/sources for each function. Remember
+your individual contributions to the package are important.
+
+The author of the package is Mengyi Shu. The *load_expression* function
+makes use of map function from `data.table` and `Single Cell Experiment`
+R package to generate load matrix into single cell experiment object.
+*AUCell_Batch* function has been using algorithms in AUCell. ##
+Reference Lawrence, M., & Turaga, N. (2021, March 27). Orchestrating
+Single Cell Analysis. GitHub. Retrieved October 26, 2021, from
 <https://github.com/Bioconductor/> OrchestratingSingleCellAnalysis
 
 ## Acknowledgements
