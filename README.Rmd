@@ -43,10 +43,10 @@ ls("package:RASC")
 data(package = "RASC")
 ```
 An overview of the package is illustrated below:
-![](./inst/extdata/OVERVIEW.png)
+![](./inst/extdata/RASC.png)
 
 ```R
-browseVignettes("<PackageName>")
+browseVignettes("IntroductionToRASC")
 ```
 
 ## Reference
