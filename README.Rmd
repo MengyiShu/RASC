@@ -33,7 +33,7 @@ library("RASC")
 ```
 To run the shinyApp:
 ``` r
-runTestingPackage()
+runRASC()
 ```
 
 ## Overview
