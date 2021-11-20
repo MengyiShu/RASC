@@ -41,8 +41,7 @@ runTestingPackage()
 ls("package:RASC")
 data(package = "RASC")
 ```
-An overview of the package is illustrated below:
-![](./inst/extdata/RASC.png)
+
 
 ```R
 browseVignettes("IntroductionToRASC")
