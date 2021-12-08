@@ -11,8 +11,8 @@
 #' @return Returns an either an nxp matrix (samples x scores)
 #'
 #' @examples
-#' expr=load_expression("mf_patient02.csv")
-#' pathway_scores = AUCell_batch(counts(expr), genesets = c(hallmarks), num_batches=20)
+#' expr <- load_expression("mf_patient02.csv")
+#' pathway_scores <- AUCell_batch(counts(expr), genesets = c(hallmarks), num_batches=20)
 #' # Access pathway_scores
 #' pathway_scores
 #'
