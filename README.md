@@ -63,16 +63,15 @@ browseVignettes("IntroductionToRASC")
 
 ## Contributions
 
-Provide a note clearly indicating contributions from you and
-contributions from other packages/sources for each function. Remember
-your individual contributions to the package are important.
-
 The author of the package is Mengyi Shu. The *load_expression* function
 in LoadSingleCellFile.R makes use of map function from `data.table` and
 `Single Cell Experiment` R package to generate load matrix into single
 cell experiment object. *AUCell_Batch* function has been using
 algorithms in AUCell package in R.It used “Area Under Curve” to
-calculate the rank of single-cell RNA sequence.
+calculate the rank of single-cell RNA sequence in the given pathways.The
+*PlotPathwayScore* function has used build-in function in scater,dyplr
+to plot the graph that represent distribution of given gene and
+pathways.
 
 ## Reference
 
