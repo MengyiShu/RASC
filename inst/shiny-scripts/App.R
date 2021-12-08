@@ -1,5 +1,5 @@
 library(shiny)
-# Define UI for random distribution app ----
+# Define UI for RunRASC app ----
 ui <- fluidPage(
 
   # App title ----
@@ -10,7 +10,7 @@ ui <- fluidPage(
 
     # Sidebar panel for inputs ----
     sidebarPanel(
-      # Input: Select a pathway file ----
+      # Input: Select a pathway file end with gmt----
       fileInput("file1", "Upload your GMT File",
                 multiple = FALSE,
                 accept = c("gmt",
@@ -48,7 +48,7 @@ ui <- fluidPage(
     # Main panel for displaying outputs ----
     mainPanel(
 
-      # Output: Tabset w/ plot, summary, and table ----
+      # Output: Tabset w/ plot,  ----
       tabsetPanel(type = "tabs",
                   tabPanel("Plot", plotOutput("plot"))
       )
