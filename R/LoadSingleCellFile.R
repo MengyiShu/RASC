@@ -11,6 +11,7 @@
 #'@import tidyverse
 #'@import SingleR
 #'@import data.table
+#'@import BiocManager
 #'
 #' @examples
 #' expr=load_expression(Patient_data)

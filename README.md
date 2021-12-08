@@ -58,7 +58,7 @@ An overview of the package is illustrated below:
 ![](./inst/extdata/RASC.png)
 
 ``` r
-browseVignettes("IntroductionToRASC")
+browseVignettes("RASC")
 ```
 
 ## Contributions
@@ -77,7 +77,7 @@ pathways.
 
 Lawrence, M., & Turaga, N. (2021, March 27). Orchestrating Single Cell
 Analysis. GitHub. Retrieved October 26, 2021, from
-<https://github.com/Bioconductor/> OrchestratingSingleCellAnalysis
+<https://github.com/Bioconductor/OrchestratingSingleCellAnalysis>
 
 ## Acknowledgements
 

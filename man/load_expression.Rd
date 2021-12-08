@@ -2,7 +2,7 @@
 % Please edit documentation in R/LoadSingleCellFile.R
 \name{load_expression}
 \alias{load_expression}
-\title{Function that load CSV Files}
+\title{Function that load dataframe Files}
 \usage{
 load_expression(exprs_file)
 }
@@ -13,11 +13,11 @@ load_expression(exprs_file)
 Returns single cell experiment object
 }
 \description{
-A function that read CSV files that contain information about the cells
+A function that read dataframe that contain information about the cells
 then convert it to a single cell experiment function
 }
 \examples{
-expr=load_expression("mf_patient21.csv")
+expr=load_expression(Patient_data)
 
 # Access sce value
 expr
