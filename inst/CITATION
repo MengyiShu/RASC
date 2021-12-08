@@ -1,0 +1,12 @@
+citHeader("To cite RASC in publications use:")
+
+citEntry(
+  entry    = "Article",
+  title    = "RASC:RNA Analysis for Single Cell data which rank the cell based on their enrichment in different pathways",
+  author   = "Mengyi Shu",
+  year     = "2021",
+  url      = "https://github.com/MengyiShu/RASC",
+  textVersion = paste(
+  "Shu,M. (2021)RASC:RNA Analysis for Single Cell data which rank the cell based on their enrichment in different pathways. Unpublished. URL https://github.com/MengyiShu/RASC"
+  )
+)

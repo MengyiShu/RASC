@@ -18,7 +18,7 @@
 #' @export
 #' @importFrom shiny runApp
 
-runDEVisComp <- function() {
+runRASC <- function() {
   appDir <- system.file("shiny-scripts",
                         package = "RASC")
   shiny::runApp(appDir, display.mode = "normal")
