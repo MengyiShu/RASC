@@ -14,7 +14,7 @@
 #'@import BiocManager
 #'
 #' @examples
-#' expr=load_expression(Patient_data)
+#' expr<-load_expression(Patient_data)
 #'
 #' # Access sce value
 #' expr

@@ -17,7 +17,7 @@ A function that read dataframe that contain information about the cells
 then convert it to a single cell experiment function
 }
 \examples{
-expr=load_expression(Patient_data)
+expr<-load_expression(Patient_data)
 
 # Access sce value
 expr

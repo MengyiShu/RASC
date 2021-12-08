@@ -12,8 +12,8 @@
 #' of certain pathways
 #'
 #' @examples
-#' expr=load_expression("mf_patient02.csv")
-#' pathway_scores = AUCell_batch(counts(expr), genesets = c(hallmarks), num_batches=20)
+#' expr <- load_expression("mf_patient02.csv")
+#' pathway_scores <- AUCell_batch(counts(expr), genesets = c(hallmarks), num_batches=20)
 #' Plot <- PlotPathwayScores(pathway_scores,1,3,HALLMARK_CHOLESTEROL_HOMEOSTASIS)
 #' # Access plot
 #' plot
