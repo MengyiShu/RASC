@@ -55,7 +55,9 @@ data(package = "RASC")
 ```
 
 An overview of the package is illustrated below:
-![](./inst/extdata/RASC.png)
+![](./inst/extdata/RASC.png) This package will read in dataframe that
+contain scRNA data and pathway information in gmt file and rank the
+cells based on the enrichment of geneset in the pathways.
 
 ``` r
 browseVignettes("RASC")
