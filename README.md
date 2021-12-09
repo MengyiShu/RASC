@@ -86,6 +86,22 @@ Megakaryocyte-Biased Hematopoiesis in Myelofibrosis and Identify Mutant
 Clone-Specific Targets. Molecular cell, 78(3), 477–492.e8.
 <https://doi.org/10.1016/j.molcel.2020.04.008>
 
+Newman, A., Liu, C., Green, M. et al. Robust enumeration of cell subsets
+from tissue expression profiles. Nat Methods 12, 453–457 (2015).
+<https://doi.org/10.1038/nmeth.3337>
+
+Van Galen, P., Hovestadt, et al (2019). Single-Cell RNA-Seq Reveals AML
+Hierarchies Relevant to Disease Progression and Immunity. Cell, 176(6),
+1265-1281.e24. <https://doi.org/10.1016/> j.cell.2019.01.031
+
+Newman, A., Liu, C., Green, M. et al. Robust enumeration of cell subsets
+from tissue expression profiles. Nat Methods 12, 453–457 (2015).
+<https://doi.org/10.1038/nmeth.3337>
+
+Van Galen, P., Hovestadt, et al (2019). Single-Cell RNA-Seq Reveals AML
+Hierarchies Relevant to Disease Progression and Immunity. Cell, 176(6),
+1265-1281.e24. <https://doi.org/10.1016/> j.cell.2019.01.031
+
 ## Acknowledgements
 
 This package was developed as part of an assessment for 2021 BCB410H:
