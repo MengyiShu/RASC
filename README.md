@@ -81,6 +81,11 @@ Lawrence, M., & Turaga, N. (2021, March 27). Orchestrating Single Cell
 Analysis. GitHub. Retrieved October 26, 2021, from
 <https://github.com/Bioconductor/OrchestratingSingleCellAnalysis>
 
+Bethan Psaila, et. al, (2020). Single-Cell Analyses Reveal
+Megakaryocyte-Biased Hematopoiesis in Myelofibrosis and Identify Mutant
+Clone-Specific Targets. Molecular cell, 78(3), 477–492.e8.
+<https://doi.org/10.1016/j.molcel.2020.04.008>
+
 ## Acknowledgements
 
 This package was developed as part of an assessment for 2021 BCB410H:
